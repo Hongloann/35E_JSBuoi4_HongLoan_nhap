@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI TẬP BUỔI 5</title>
+     <!-- BOOSTRAP   -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Bài tập 1: -->
+    <div class="card">
+        <div class="card-header">
+            Sắp xếp 3 số nguyên tăng dần
+        </div>
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Số 1</label>
+                <input id="num1" type="number" class="form-control" >
+            </div>
+            <div  class="form-group">
+                <label>Số 2</label>
+                <input id="num2" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số 3</label>
+                <input id="num3" type="number" class="form-control">
+            </div>
+            <button id="btnLogin" class="btn btn-success">Sắp xếp</button> 
+        </div>
+
+        <div id="thongBao" class="card-footer text-muted">
+        </div>
+    </div>
+
+    <!-- Bài tập 2  -->
+    <hr>
+    <div class="card">
+        <div class="card-header">
+            Chào hỏi
+        </div>
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Người sử dụng</label>
+                <select class="form-control" id="selectUser">
+                    <option>Chọn thành viên</option>
+                    <option id="Bo" value="Bo">Bố</option>
+                    <option id="Me" value="Me">Mẹ</option>
+                    <option id="Anh" value="Anh">Anh trai</option>
+                    <option id="Em" value="Em">Em gái</option>
+                </select>
+            </div>
+            <button id="btnChao" class="btn btn-success"> Gửi lời chào </button> 
+        </div>
+        <div id="nutXinChao" class="card-footer text-muted">
+        </div>
+    </div>
+
+    <!-- Bài tập 3  -->
+    <hr>
+    <div class="card">
+        <div class="card-header">
+            Số lẻ và số chẵn
+        </div>
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Số nguyên 1</label>
+                <input id="soNguyen1" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số nguyên 2</label>
+                <input id="soNguyen2" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Số nguyên 3</label>
+                <input id="soNguyen3" type="number" class="form-control">
+            </div>
+            <button id="btnSoChanLe" class="btn btn-success"> Tìm số</button> 
+        </div>
+        
+        <div id="nutKetQua" class="card-footer text-muted">
+        </div>
+    </div>
+
+    <!-- Bài tập 4 -->
+    <hr>
+    <div class="card">
+        <div class="card-header">
+            Tam giác
+        </div>
+        <div class="card-body">
+            <div  class="form-group">
+                <label>Cạnh a</label>
+                <input id="canhA" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Cạnh b</label>
+                <input id="canhB" type="number" class="form-control">
+            </div>
+            <div  class="form-group">
+                <label>Cạnh c</label>
+                <input id="canhC" type="number" class="form-control">
+            </div>
+            <button id="btnTamGiac" class="btn btn-success"> Loại tam giác </button> 
+        </div>
+        
+        <div id="LoaiTamGiac" class="card-footer text-muted">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- JQUERY  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP: v4  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
